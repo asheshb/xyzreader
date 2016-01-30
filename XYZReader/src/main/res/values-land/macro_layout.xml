@@ -1,0 +1,7 @@
+<resources>
+    <!-- detail -->
+    <dimen name="detail_photo_height">200dp</dimen>
+    <dimen name="detail_metabar_horiz_padding">64dp</dimen>
+
+
+</resources>

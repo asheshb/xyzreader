@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">XYZ Reader</string>
+
+
+    <string name="action_about">About</string>
+    <string name="action_share">Share</string>
+
+    <string name="no_information_available">No information available.</string>
+    <string name="empty_recycler_view_no_network">The network is not available. Please check the internet connectivity.</string>
+
+
+    <string name="about_title" >About</string>
+
+    <string name="about"><![CDATA[This application show a list of articles fetched from internet. All titles, cover images, and information come from there.
+        \n\n
+        This project has been modified to implement material design as per the project requirement of P5 \"Make Your App Material\" under Udacity Android Nanodegree program.
+        \n\n
+        Main focus was on usage of CoordinatorLayout, AppBarLayout, CollapsingToolbarLayout to manipulate toolbar, scrolling and parallax. Shared Transition, Enter/Exit transitions were also implemented.
+        Added swipe hint for article details screen.
+        \n\n
+        Adjusting the app layout for multiple screens was also implemented. ]]>
+    </string>
+    <string name="swipe">Swipe to view next article</string>
+    <string name="article_cover">Article cover</string>
+
+
+    <!-- Transition related -->
+    <string name="head_prefix" translatable="false">HEAD</string>
+    <string name="sub_prefix" translatable="false">SUB</string>
+
+</resources>

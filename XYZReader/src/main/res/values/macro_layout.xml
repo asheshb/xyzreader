@@ -1,0 +1,19 @@
+<resources>
+    <!-- list -->
+
+	<dimen name="list_side_margin">4dp</dimen>
+    <integer name="list_column_count">2</integer>
+
+
+
+    <!-- detail -->
+    <dimen name="detail_photo_height">300dp</dimen>
+
+    <dimen name="detail_metabar_horiz_padding">16dp</dimen>
+    <dimen name="detail_metabar_vert_padding">16dp</dimen>
+    <dimen name="detail_metabar_title_bottom_padding">4dp</dimen>
+    <dimen name="detail_card_max_width">10000dp</dimen> <!-- force match_parent -->
+    <dimen name="detail_body_bottom_margin">88dp</dimen>
+
+
+</resources>

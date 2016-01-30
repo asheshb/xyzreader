@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="list_side_margin">16dp</dimen>
+
+    <!-- detail -->
+    <dimen name="detail_photo_height">300dp</dimen>
+
+
+</resources>
