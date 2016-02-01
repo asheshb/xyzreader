@@ -240,6 +240,7 @@ public class ArticleListActivity extends AppCompatActivity implements
                         String tName= getString(R.string.head_prefix) + String.valueOf(getItemId(vh.getAdapterPosition()));
                         title.setTransitionName(tName);
                         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(ArticleListActivity.this, title, tName);
+
                         ActivityCompat.startActivity(ArticleListActivity.this, intent, options.toBundle());
                     }
                     else {
