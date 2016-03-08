@@ -1,34 +1,56 @@
-#### XYZ Reader - Project 5, Android Nanodegree Course, Udacity
+# XYZ Reader
 
-This application show a list of articles fetched from internet. All titles, cover images, and information come from there.
-
-This project has been modified to implement material design as per the project requirement of P5 "Make Your App Material" under Udacity Android Nanodegree program.
-
-Main focus was on usage of CoordinatorLayout, AppBarLayout, CollapsingToolbarLayout to manipulate toolbar, scrolling and parallax. Shared Transition, Enter/Exit transitions were also implemented.
-
-Few things I learned/ implemented in this project:
-
-* Added Color theme
-* Adjusted positioning of logo
-* Changed stickybroadcast to localbroadcastmanager
-* Implemented swiperefreshcode listener
-* Added to show toast when no internet connection
-* Added empty view to recycle view
-* Added About activity
-* Added coordinatorlayout/appbarlayout
-* Added animation to main image logo in toolbar
-* Added CoordinatorLayout to detail activity
-* Replaced custom scrollview with NestedScrollView
-* Removed MaxWidthLinearLayout and few other classes
-* Improved the ImageLoaderHelper class
-* Added singleTop mode to main activity
-* Added shared transition for title from main to detail
-* Added slideup/down on enter/exit transition of detail activity
-* Added fixed page width for w800dp size and other optimizations for multiple screens
-* Use of merge tag in layout
-* Added swipe hint
+This app is an article reader.
+This project has been modified to implement material design.
 
 
+## Learn
+This app was created as a project under _Udacity, Android Developer Nanodegree_ course.
+
+Things you can learn:
+
+* Add material design theme.
+* Implement localbroadcastmanager.
+* Implement swiperefreshcode listener.
+* Add FAB (floating action button)
+* Add empty view to RecyclerView.
+* Implement coordinatorlayout/appbarlayout.
+* Add animation to image logo in toolbar.
+* Implement NestedScrollView.
+* Implement shared transition.
+* Implement slideup/down on enter/exit transition.
+* Optimize layout for multiple screens.
+* Use of merge tag in layout.
+* Add hint overlay on a screen.
+
+## Screens
 <img src="https://cloud.githubusercontent.com/assets/13112999/13421734/34ae67ba-dfb6-11e5-860f-08c3037b1ada.png" /> 
 <img src="https://cloud.githubusercontent.com/assets/13112999/13421741/390280d0-dfb6-11e5-917c-2ff58ca16b16.png" /> 
+
+
+## Video
 <img src="https://cloud.githubusercontent.com/assets/13112999/13421469/98546b36-dfb4-11e5-952a-73ce3f835871.gif" /> 
+
+## Licence 
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Ashesh Bharadwaj
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
